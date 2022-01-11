@@ -1,0 +1,27 @@
+student table:
+
+	(t_id, id, name, fname, gname, name_amh, fname_amh, gname_amh, name_or, fname_or, gname_or, gender, dob, dor, lang, med, res_pers, phy_name)
+
+student_address table:
+	
+	(t_id, id, nationality, region, zone, woreda, kebele, house_no, home_phone, office_phone, phone, fax, pobox, email)
+
+student_fee table:
+
+	(t_id, id, fee_type, amount, recipt_no, bank_name, date_paid, dr) 
+
+student_status table:
+
+	(t_id, id, tsd, ted, att_date, att_path, row_no, term)
+
+employe_action table:
+
+	(t_id, id, username, password, type, action, date)
+
+term table:
+
+	(t_id, id, name, tsd, ted, stat, date)
+
+license table:
+
+	(t_id, id, name, code, stat, date)
